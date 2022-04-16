@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beautiful Responsive Menu Design By Arjun Ghimire</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is v4 fontawesome cdn-->
+    <script src="https://use.fontawesome.com/efcb6191f0.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Site Name</div>
+        <i class="fa fa-bars icon" class="icon" id="click" onclick="show()"></i>
+        <ul id="menu-bar">
+            <li class="list"><a class="link" href="#">Home</a></li>
+            <li class="list"><a class="link" href="#">Bug Finder</a></li>
+            <li class="list"><a class="link" href="#">Contact</a></li>
+            <li class="list"><a href="/login.html" class="link auth-btn left-size">Login</a></li>
+            <li class="list"><a href="/signup.html" class="link auth-btn2">Register</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="login-container">
+            <form action="#">
+                <div class="login-data">
+                    <h1>Account Login</h1><hr>
+                    <div class="input-field" style="margin-top: 30px;">
+                        <i class="fa fa-user"></i>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+                    <span style="font-size: 16px; "><input type="checkbox" id="check"><label for="check" style="cursor: pointer;position:relative;bottom:3px;"> Remember Me</label></span>
+                   <br><br><button class="color-brown" style="margin-bottom: 10px;">Login</button><p align="center">OR</p>
+                    <button class="color-white">Register</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <footer>
+        YourSite &copy; 2022 by Arjun Ghimire
+    </footer>
+</body>
+
+</html>
